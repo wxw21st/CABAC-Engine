@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbApplySaoLcu16bit_Intrinsic_SSE2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbAvcStyleMcp_Intrinsic_SSE2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbCombinedAveragingSAD_Intrinsic_SSE2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbComputeMean_Intrinsic_SSE2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbDeblockingFilter_Intrinsic_SSE2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbGatherSaoStatistics16bit_Intrinsic_SSE2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbIntraPrediction16bit_Intrinsic_SSE2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbIntraPrediction_Intrinsic_SSE2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbInvTransform_Intrinsic_SSE2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbMcp16bit_Intrinsic_SSE2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbMcp_Intrinsic_SSE2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbMeSadCalculation_Intrinsic_SSE2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbPackUnPack_Intrinsic_SSE2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbPictureOperators_Intrinsic_SSE2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbSaoStatistics_Intrinsic_SSE2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbTransforms_Intrinsic_SSE2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbAvcStyleMcp_SSE2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbComputeMean_SSE2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbComputeSAD_SSE2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbDeblockingFilter_SSE2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbIntraPrediction_SSE2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbIntrinMacros16bit_SSE2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbIntrinMacros_SSE2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbMcp_SSE2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbMeSadCalculation_SSE2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbPackUnPack_SSE2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbPictureOperators_SSE2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbSampleAdaptiveOffset_SSE2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbTransforms_SSE2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbGatherSaoStatistics16bit_SSE2.asm" />
+    <None Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\EbPictureOperators_SSE2.asm" />
+    <None Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\x64inc.asm" />
+    <None Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\x64Macro.asm" />
+    <None Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\ASM_SSE2\x64RegisterUtil.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7E00B76D-C8F4-4E85-A524-D5D80254C900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{999C7763-2834-41CC-8D15-53D48365B58D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

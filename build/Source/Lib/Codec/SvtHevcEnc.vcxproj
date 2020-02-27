@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{50C1FD1A-4742-47EE-8EA1-83337EE39BA2}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>SvtHevcEnc</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\SVT\SVT-HEVC-master\Bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SvtHevcEnc.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SvtHevcEnc</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\SVT\SVT-HEVC-master\Bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SvtHevcEnc.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SvtHevcEnc</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\SVT\SVT-HEVC-master\Bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SvtHevcEnc.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SvtHevcEnc</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\SVT\SVT-HEVC-master\Bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SvtHevcEnc.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SvtHevcEnc</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /sdl %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:/Code/SVT/SVT-HEVC-master/Source/API;D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE2;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSSE3;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE4_1;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_AVX2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>_DEBUG;CMAKE_INTDIR="Debug";SvtHevcEnc_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:/Code/SVT/SVT-HEVC-master/Bin/Debug/SvtHevcEnc.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;CMAKE_INTDIR=\"Debug\";SvtHevcEnc_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:/Code/SVT/SVT-HEVC-master/Source/API;D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE2;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSSE3;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE4_1;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_AVX2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Code/SVT/SVT-HEVC-master/Source/API;D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE2;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSSE3;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE4_1;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_AVX2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /NXCompat /DynamicBase /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\Debug\C_DEFAULT.lib;..\..\..\lib\Debug\ASM_SSE2.lib;..\..\..\lib\Debug\ASM_SSSE3.lib;..\..\..\lib\Debug\ASM_SSE4_1.lib;..\..\..\lib\Debug\ASM_AVX2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE2;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE2/$(Configuration);;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT/$(Configuration);;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSSE3;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSSE3/$(Configuration);;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE4_1;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE4_1/$(Configuration);;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_AVX2;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_AVX2/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>D:/Code/SVT/SVT-HEVC-master/Bin/Debug/SvtHevcEnc.lib</ImportLibrary>
+      <LinkIncremental>true</LinkIncremental>
+      <ProgramDataBaseFile>D:/Code/SVT/SVT-HEVC-master/Bin/Debug/SvtHevcEnc.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /sdl %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:/Code/SVT/SVT-HEVC-master/Source/API;D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE2;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSSE3;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE4_1;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_AVX2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>NDEBUG;CMAKE_INTDIR="Release";SvtHevcEnc_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:/Code/SVT/SVT-HEVC-master/Bin/Release/SvtHevcEnc.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;CMAKE_INTDIR=\"Release\";SvtHevcEnc_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:/Code/SVT/SVT-HEVC-master/Source/API;D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE2;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSSE3;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE4_1;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_AVX2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Code/SVT/SVT-HEVC-master/Source/API;D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE2;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSSE3;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE4_1;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_AVX2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /NXCompat /DynamicBase %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\Release\C_DEFAULT.lib;..\..\..\lib\Release\ASM_SSE2.lib;..\..\..\lib\Release\ASM_SSSE3.lib;..\..\..\lib\Release\ASM_SSE4_1.lib;..\..\..\lib\Release\ASM_AVX2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE2;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE2/$(Configuration);;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT/$(Configuration);;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSSE3;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSSE3/$(Configuration);;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE4_1;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE4_1/$(Configuration);;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_AVX2;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_AVX2/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>D:/Code/SVT/SVT-HEVC-master/Bin/Release/SvtHevcEnc.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Code/SVT/SVT-HEVC-master/Bin/Release/SvtHevcEnc.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions> /sdl %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:/Code/SVT/SVT-HEVC-master/Source/API;D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE2;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSSE3;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE4_1;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_AVX2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>NDEBUG;CMAKE_INTDIR="MinSizeRel";SvtHevcEnc_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:/Code/SVT/SVT-HEVC-master/Bin/MinSizeRel/SvtHevcEnc.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";SvtHevcEnc_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:/Code/SVT/SVT-HEVC-master/Source/API;D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE2;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSSE3;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE4_1;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_AVX2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Code/SVT/SVT-HEVC-master/Source/API;D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE2;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSSE3;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE4_1;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_AVX2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /NXCompat /DynamicBase %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\MinSizeRel\C_DEFAULT.lib;..\..\..\lib\MinSizeRel\ASM_SSE2.lib;..\..\..\lib\MinSizeRel\ASM_SSSE3.lib;..\..\..\lib\MinSizeRel\ASM_SSE4_1.lib;..\..\..\lib\MinSizeRel\ASM_AVX2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE2;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE2/$(Configuration);;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT/$(Configuration);;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSSE3;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSSE3/$(Configuration);;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE4_1;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE4_1/$(Configuration);;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_AVX2;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_AVX2/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>D:/Code/SVT/SVT-HEVC-master/Bin/MinSizeRel/SvtHevcEnc.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Code/SVT/SVT-HEVC-master/Bin/MinSizeRel/SvtHevcEnc.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> /sdl %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:/Code/SVT/SVT-HEVC-master/Source/API;D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE2;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSSE3;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE4_1;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_AVX2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>NDEBUG;CMAKE_INTDIR="RelWithDebInfo";SvtHevcEnc_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>RelWithDebInfo</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:/Code/SVT/SVT-HEVC-master/Bin/RelWithDebInfo/SvtHevcEnc.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";SvtHevcEnc_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:/Code/SVT/SVT-HEVC-master/Source/API;D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE2;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSSE3;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE4_1;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_AVX2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Code/SVT/SVT-HEVC-master/Source/API;D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE2;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSSE3;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE4_1;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_AVX2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /NXCompat /DynamicBase /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\RelWithDebInfo\C_DEFAULT.lib;..\..\..\lib\RelWithDebInfo\ASM_SSE2.lib;..\..\..\lib\RelWithDebInfo\ASM_SSSE3.lib;..\..\..\lib\RelWithDebInfo\ASM_SSE4_1.lib;..\..\..\lib\RelWithDebInfo\ASM_AVX2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE2;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE2/$(Configuration);;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT/$(Configuration);;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSSE3;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSSE3/$(Configuration);;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE4_1;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_SSE4_1/$(Configuration);;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_AVX2;D:/Code/SVT/SVT-HEVC-master/Source/Lib/ASM_AVX2/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>D:/Code/SVT/SVT-HEVC-master/Bin/RelWithDebInfo/SvtHevcEnc.lib</ImportLibrary>
+      <LinkIncremental>true</LinkIncremental>
+      <ProgramDataBaseFile>D:/Code/SVT/SVT-HEVC-master/Bin/RelWithDebInfo/SvtHevcEnc.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Code/SVT/SVT-HEVC-master -BD:/Code/old-projects/CABAC/build --check-stamp-file D:\Code\old-projects\CABAC\build\Source\Lib\Codec\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec/CMakeLists.txt;D:\Code\SVT\SVT-HEVC-master\Source\Lib\Codec\CMakeLists.txt;D:\Code\SVT\SVT-HEVC-master\Source\Lib\Codec\..\pkg-config.pc.in;D:\Code\SVT\SVT-HEVC-master\Source\Lib\Codec\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\old-projects\CABAC\build\Source\Lib\Codec\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Code/SVT/SVT-HEVC-master -BD:/Code/old-projects/CABAC/build --check-stamp-file D:\Code\old-projects\CABAC\build\Source\Lib\Codec\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec/CMakeLists.txt;D:\Code\SVT\SVT-HEVC-master\Source\Lib\Codec\CMakeLists.txt;D:\Code\SVT\SVT-HEVC-master\Source\Lib\Codec\..\pkg-config.pc.in;D:\Code\SVT\SVT-HEVC-master\Source\Lib\Codec\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\old-projects\CABAC\build\Source\Lib\Codec\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Code/SVT/SVT-HEVC-master -BD:/Code/old-projects/CABAC/build --check-stamp-file D:\Code\old-projects\CABAC\build\Source\Lib\Codec\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec/CMakeLists.txt;D:\Code\SVT\SVT-HEVC-master\Source\Lib\Codec\CMakeLists.txt;D:\Code\SVT\SVT-HEVC-master\Source\Lib\Codec\..\pkg-config.pc.in;D:\Code\SVT\SVT-HEVC-master\Source\Lib\Codec\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\old-projects\CABAC\build\Source\Lib\Codec\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Code/SVT/SVT-HEVC-master -BD:/Code/old-projects/CABAC/build --check-stamp-file D:\Code\old-projects\CABAC\build\Source\Lib\Codec\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec/CMakeLists.txt;D:\Code\SVT\SVT-HEVC-master\Source\Lib\Codec\CMakeLists.txt;D:\Code\SVT\SVT-HEVC-master\Source\Lib\Codec\..\pkg-config.pc.in;D:\Code\SVT\SVT-HEVC-master\Source\Lib\Codec\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\old-projects\CABAC\build\Source\Lib\Codec\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbAdaptiveMotionVectorPrediction.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbAvailability.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbAvcStyleMcp.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbBitstreamUnit.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbCabacContextModel.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbCodingLoop.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbCodingUnit.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbComputeMean.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbComputeSAD.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbDeblockingFilter.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbDefinitions.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEncDecProcess.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEncDecResults.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEncDecSegments.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEncDecTasks.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEncHandle.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEncodeContext.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEntropyCoding.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEntropyCodingObject.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEntropyCodingProcess.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEntropyCodingResults.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEntropyCodingUtil.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbFullLoop.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbHmCode.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbInitialRateControlProcess.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbInitialRateControlReorderQueue.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbInitialRateControlResults.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbInterPrediction.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbIntraPrediction.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbLambdaRateTables.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMcp.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMdRateEstimation.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMeSadCalculation.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbModeDecision.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbModeDecisionConfiguration.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbModeDecisionConfigurationProcess.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbModeDecisionProcess.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbModeDecisionSegments.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMotionEstimation.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMotionEstimationContext.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMotionEstimationLcuResults.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMotionEstimationProcess.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMotionEstimationResults.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMotionVectorUnit.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMvMerge.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbNeighborArrays.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPacketizationProcess.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPacketizationReorderQueue.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPackUnPack.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureAnalysisProcess.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureAnalysisResults.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureBufferDesc.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureControlSet.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureDecisionProcess.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureDecisionQueue.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureDecisionReorderQueue.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureDecisionResults.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureDemuxResults.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureManagerProcess.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureManagerQueue.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureManagerReorderQueue.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureOperators.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPredictionStructure.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPredictionUnit.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbRateControlProcess.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbRateControlResults.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbRateControlTables.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbRateControlTasks.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbRateDistortionCost.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbReferenceObject.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbResourceCoordinationProcess.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbResourceCoordinationResults.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbSampleAdaptiveOffset.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbSei.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbSequenceControlSet.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbSourceBasedOperationsProcess.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbSyntaxElements.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbSystemResourceManager.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbThreads.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbTransforms.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbTransformUnit.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbTransQuantBuffers.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbUtility.h" />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEncDecProcess.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEncDecResults.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEncDecSegments.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEncDecTasks.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEncHandle.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEncodeContext.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEntropyCodingProcess.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEntropyCodingResults.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbInitialRateControlProcess.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbInitialRateControlReorderQueue.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbInitialRateControlResults.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbModeDecisionConfigurationProcess.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbModeDecisionProcess.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMotionEstimationContext.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMotionEstimationProcess.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMotionEstimationResults.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPacketizationProcess.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPacketizationReorderQueue.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureAnalysisProcess.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureAnalysisResults.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureBufferDesc.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureControlSet.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureDecisionProcess.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureDecisionQueue.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureDecisionReorderQueue.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureDecisionResults.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureDemuxResults.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureManagerProcess.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureManagerQueue.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureManagerReorderQueue.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbRateControlProcess.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbRateControlResults.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbRateControlTasks.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbReferenceObject.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbResourceCoordinationProcess.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbResourceCoordinationResults.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbSequenceControlSet.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbSourceBasedOperationsProcess.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbSystemResourceManager.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbThreads.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbAdaptiveMotionVectorPrediction.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbAvailability.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbAvcStyleMcp.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbBitstreamUnit.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbCabacContextModel.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbCodingLoop.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbCodingUnit.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbCoeffEstimation_Intrinsic.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbDeblockingFilter.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEntropyCoding.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEntropyCodingUtil.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbFullLoop.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbHmCode.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbInterPrediction.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbIntraPrediction.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMcp.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMcpTables.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMdRateEstimation.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbModeDecision.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbModeDecisionConfiguration.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMotionEstimation.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbNeighborArrays.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureOperators.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPredictionStructure.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbProductCodingLoop.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbRateControlTables.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbRateDistortionCost.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbSampleAdaptiveOffsetGenerationDecision.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbSei.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbTransforms.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbTransQuantBuffers.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbUtility.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Code/old-projects/CABAC/build/Source/Lib/ASM_AVX2/ASM_AVX2.vcxproj">
+      <Project>C4CC2AE0-D9E4-4376-B423-621684BA2940</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Code/old-projects/CABAC/build/Source/Lib/ASM_SSE2/ASM_SSE2.vcxproj">
+      <Project>ABC3659B-333D-4C22-9465-360A836D994F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Code/old-projects/CABAC/build/Source/Lib/ASM_SSE4_1/ASM_SSE4_1.vcxproj">
+      <Project>50156C69-F45C-47EB-BAFE-BE85AF28EB5A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Code/old-projects/CABAC/build/Source/Lib/ASM_SSSE3/ASM_SSSE3.vcxproj">
+      <Project>3A43E91E-A6D4-454A-98D7-5AD50E4F1F97</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Code/old-projects/CABAC/build/Source/Lib/C_DEFAULT/C_DEFAULT.vcxproj">
+      <Project>1AE9140A-8372-494F-A2AF-E962D6FC0B04</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Code/old-projects/CABAC/build/ZERO_CHECK.vcxproj">
+      <Project>361AB789-26DD-4EB6-A7FE-01297DA53532</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEncDecProcess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEncDecResults.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEncDecSegments.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEncDecTasks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEncHandle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEncodeContext.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEntropyCodingProcess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEntropyCodingResults.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbInitialRateControlProcess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbInitialRateControlReorderQueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbInitialRateControlResults.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbModeDecisionConfigurationProcess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbModeDecisionProcess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMotionEstimationContext.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMotionEstimationProcess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMotionEstimationResults.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPacketizationProcess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPacketizationReorderQueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureAnalysisProcess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureAnalysisResults.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureBufferDesc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureControlSet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureDecisionProcess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureDecisionQueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureDecisionReorderQueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureDecisionResults.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureDemuxResults.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureManagerProcess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureManagerQueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureManagerReorderQueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbRateControlProcess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbRateControlResults.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbRateControlTasks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbReferenceObject.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbResourceCoordinationProcess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbResourceCoordinationResults.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbSequenceControlSet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbSourceBasedOperationsProcess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbSystemResourceManager.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbThreads.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbAdaptiveMotionVectorPrediction.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbAvailability.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbAvcStyleMcp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbBitstreamUnit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbCabacContextModel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbCodingLoop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbCodingUnit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbCoeffEstimation_Intrinsic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbDeblockingFilter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEntropyCoding.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEntropyCodingUtil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbFullLoop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbHmCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbInterPrediction.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbIntraPrediction.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMcp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMcpTables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMdRateEstimation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbModeDecision.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbModeDecisionConfiguration.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMotionEstimation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbNeighborArrays.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureOperators.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPredictionStructure.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbProductCodingLoop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbRateControlTables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbRateDistortionCost.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbSampleAdaptiveOffsetGenerationDecision.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbSei.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbTransforms.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbTransQuantBuffers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbUtility.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbAdaptiveMotionVectorPrediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbAvailability.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbAvcStyleMcp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbBitstreamUnit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbCabacContextModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbCodingLoop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbCodingUnit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbComputeMean.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbComputeSAD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbDeblockingFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbDefinitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEncDecProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEncDecResults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEncDecSegments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEncDecTasks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEncHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEncodeContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEntropyCoding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEntropyCodingObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEntropyCodingProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEntropyCodingResults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbEntropyCodingUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbFullLoop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbHmCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbInitialRateControlProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbInitialRateControlReorderQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbInitialRateControlResults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbInterPrediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbIntraPrediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbLambdaRateTables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMcp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMdRateEstimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMeSadCalculation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbModeDecision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbModeDecisionConfiguration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbModeDecisionConfigurationProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbModeDecisionProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbModeDecisionSegments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMotionEstimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMotionEstimationContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMotionEstimationLcuResults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMotionEstimationProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMotionEstimationResults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMotionVectorUnit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbMvMerge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbNeighborArrays.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPacketizationProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPacketizationReorderQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPackUnPack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureAnalysisProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureAnalysisResults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureBufferDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureControlSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureDecisionProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureDecisionQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureDecisionReorderQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureDecisionResults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureDemuxResults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureManagerProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureManagerQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureManagerReorderQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPictureOperators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPredictionStructure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbPredictionUnit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbRateControlProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbRateControlResults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbRateControlTables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbRateControlTasks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbRateDistortionCost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbReferenceObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbResourceCoordinationProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbResourceCoordinationResults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbSampleAdaptiveOffset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbSei.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbSequenceControlSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbSourceBasedOperationsProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbSyntaxElements.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbSystemResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbThreads.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbTransforms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbTransformUnit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbTransQuantBuffers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\EbUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\Codec\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7E00B76D-C8F4-4E85-A524-D5D80254C900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{999C7763-2834-41CC-8D15-53D48365B58D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

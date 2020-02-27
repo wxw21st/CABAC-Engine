@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{1AE9140A-8372-494F-A2AF-E962D6FC0B04}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>C_DEFAULT</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\old-projects\CABAC\build\lib\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C_DEFAULT.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C_DEFAULT</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\old-projects\CABAC\build\lib\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C_DEFAULT.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C_DEFAULT</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\old-projects\CABAC\build\lib\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C_DEFAULT.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C_DEFAULT</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\old-projects\CABAC\build\lib\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C_DEFAULT.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C_DEFAULT</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /sdl %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:/Code/SVT/SVT-HEVC-master/Source/API;D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:/Code/old-projects/CABAC/build/lib/Debug/C_DEFAULT.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:/Code/SVT/SVT-HEVC-master/Source/API;D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Code/SVT/SVT-HEVC-master/Source/API;D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /sdl %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:/Code/SVT/SVT-HEVC-master/Source/API;D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:/Code/old-projects/CABAC/build/lib/Release/C_DEFAULT.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:/Code/SVT/SVT-HEVC-master/Source/API;D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Code/SVT/SVT-HEVC-master/Source/API;D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions> /sdl %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:/Code/SVT/SVT-HEVC-master/Source/API;D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:/Code/old-projects/CABAC/build/lib/MinSizeRel/C_DEFAULT.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:/Code/SVT/SVT-HEVC-master/Source/API;D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Code/SVT/SVT-HEVC-master/Source/API;D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> /sdl %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:/Code/SVT/SVT-HEVC-master/Source/API;D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>RelWithDebInfo</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:/Code/old-projects/CABAC/build/lib/RelWithDebInfo/C_DEFAULT.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:/Code/SVT/SVT-HEVC-master/Source/API;D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Code/SVT/SVT-HEVC-master/Source/API;D:/Code/SVT/SVT-HEVC-master/Source/Lib/Codec;D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Code/SVT/SVT-HEVC-master -BD:/Code/old-projects/CABAC/build --check-stamp-file D:\Code\old-projects\CABAC\build\Source\Lib\C_DEFAULT\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT/CMakeLists.txt;D:\Code\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\CMakeLists.txt;D:\Code\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Code\old-projects\CABAC\build\Source\Lib\C_DEFAULT\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Code/SVT/SVT-HEVC-master -BD:/Code/old-projects/CABAC/build --check-stamp-file D:\Code\old-projects\CABAC\build\Source\Lib\C_DEFAULT\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT/CMakeLists.txt;D:\Code\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\CMakeLists.txt;D:\Code\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Code\old-projects\CABAC\build\Source\Lib\C_DEFAULT\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Code/SVT/SVT-HEVC-master -BD:/Code/old-projects/CABAC/build --check-stamp-file D:\Code\old-projects\CABAC\build\Source\Lib\C_DEFAULT\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT/CMakeLists.txt;D:\Code\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\CMakeLists.txt;D:\Code\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Code\old-projects\CABAC\build\Source\Lib\C_DEFAULT\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Code/SVT/SVT-HEVC-master -BD:/Code/old-projects/CABAC/build --check-stamp-file D:\Code\old-projects\CABAC\build\Source\Lib\C_DEFAULT\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Code/SVT/SVT-HEVC-master/Source/Lib/C_DEFAULT/CMakeLists.txt;D:\Code\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\CMakeLists.txt;D:\Code\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Code\old-projects\CABAC\build\Source\Lib\C_DEFAULT\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\EbAvcStyleMcp_C.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\EbComputeMean_C.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\EbComputeSAD_C.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\EbDeblockingFilter_C.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\EbIntraPrediction_C.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\EbMcp_C.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\EbMeSadCalculation_C.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\EbPackUnPack_C.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\EbPictureOperators_C.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\EbSampleAdaptiveOffset_C.h" />
+    <ClInclude Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\EbTransforms_C.h" />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\EbAvcStyleMcp_C.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\EbComputeMean_C.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\EbComputeSAD_C.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\EbDeblockingFilter_C.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\EbIntraPrediction_C.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\EbMcp_C.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\EbMeSadCalculation_C.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\EbPackUnPack_C.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\EbPictureOperators_C.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\EbSampleAdaptiveOffset_C.c"  />
+    <ClCompile Include="..\..\..\..\..\..\SVT\SVT-HEVC-master\Source\Lib\C_DEFAULT\EbTransforms_C.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Code/old-projects/CABAC/build/ZERO_CHECK.vcxproj">
+      <Project>361AB789-26DD-4EB6-A7FE-01297DA53532</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
