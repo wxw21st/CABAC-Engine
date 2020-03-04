@@ -6,5 +6,5 @@ Context Adaptive Binary Coding.
 
 It can also do some bitmap preprocessing on the input file to make the data more amenable to compression.
 
-To execute this file, simply run CABAC.cpp and follow instructions on the screen.
+To execute this file, simply run encode.exe -f *.* for input file and decode.exe for -f input output. For more help please use -help.
 
